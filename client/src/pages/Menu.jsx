@@ -213,7 +213,7 @@ function Menu() {
           <button className="filter-button" onClick={()=>{handleCategoryChange("tea")}}>Tea</button>
           <button className="filter-button" onClick={()=>{handleCategoryChange("milkshake")}}>Milkshake</button>
           <button className="filter-button" onClick={()=>{handleCategoryChange("dessert")}}>Dessert</button>
-          <button className='filter-button' onClick={()=>{handleCategoryChange("snack")}}>Sanck</button>
+          <button className='filter-button' onClick={()=>{handleCategoryChange("snack")}}>Snack</button>
         </div>
         <div className="product-list">
             {Array.isArray(filteredProducts) && filteredProducts.length > 0 ? (
