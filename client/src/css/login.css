@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background: url("https://i.postimg.cc/W4n44dbB/p4.jpg") no-repeat center center;
+    background-size: 100vw auto; /* Change this line */
+    /* background-position: center; */ 
+    
+  }
+  
+  .artwork {
+    flex: 1;
+  }
+  
+  .login-box {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .textbox {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .textbox input {
+    position: relative;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    outline: none;
+    background: #f9f9f9;
+    margin-top: 40px;
+  }
+  
+  .btn {
+    position: absolute;
+    background: #333;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 20px;
+  
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    width: 85%;
+    left: 35px;
+    bottom: 70px;
+  }
+  
+  .btn:hover {
+    background: #555;
+  }
+  

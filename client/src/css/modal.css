@@ -1,0 +1,65 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #f5f5dc; /* Light beige background to match coffee theme */
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #8b4513; /* Coffee brown border */
+  }
+  
+  .modal h2 {
+    color: #8b4513; /* Coffee brown color for the title */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal label {
+    display: block;
+    margin-bottom: 10px;
+    color: #4b2e1e; /* Dark brown for labels */
+  }
+  
+  .modal input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8b4513;
+    border-radius: 6px;
+    background: #fff8dc; /* Light golden background for input fields */
+    color: #4b2e1e; /* Dark brown text color for input fields */
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #8b4513; /* Coffee brown background for buttons */
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #5a2d0c; /* Darker brown on hover */
+  }
+  

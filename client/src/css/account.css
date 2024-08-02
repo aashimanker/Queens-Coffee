@@ -1,0 +1,61 @@
+.account-details {
+    background-color: #4B3832;
+    color: #E6E2D3;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-title {
+    color: #8C7B75;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .account-info {
+    flex: 1;
+  }
+  
+  .account-info p {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  
+  .account-info strong {
+    color: #A67B5B;
+  }
+  
+  .account-image {
+    margin-right: 30px;
+  }
+  
+  .account-image img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+  }
+  
+  .map-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  

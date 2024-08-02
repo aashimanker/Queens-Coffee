@@ -1,0 +1,68 @@
+.sidebar {
+    width: 80px;
+    background: #7b6767;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 7px;
+    margin: 10px;
+    position: fixed;
+    top: 10px;
+    left: 2px;
+  }
+  .sidebar .logo {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 20px;
+  }
+  .logout-container {
+    margin-top: 200px;
+  }
+  
+  .logout-container li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  .sidebar ul li {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar ul li.active,
+  .sidebar ul li:hover {
+    background: #4e3f3f;
+    border-radius: 10px;
+  }
+  
+  .sidebar ul li img.nav-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .sidebar ul li a {
+    color: white; /* Default link color */
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a.active {
+    color: black; /* Color for active link */
+  }
+  
+  .sidebar ul li a:hover {
+    color: lightblue; /* Color for link on hover */
+  }
