@@ -1,16 +1,16 @@
-body {
+.body-sales {
     font-family: Arial, sans-serif;
     background-color: #f5f5dc;
     margin: 0;
     padding: 0;
   }
-  
+/*   
   header {
     background-color: #6f4e37;
     color: #f0e5cf;
     text-align: center;
     padding: 20px 0;
-  }
+  } */
   
   h1 {
     margin: 0;
@@ -21,16 +21,17 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-left: 200px; /* add a margin to account for the navbar width */
   }
-  
   .card-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 800px;
     gap: 20px;
+    margin: 0 auto;
+    padding-left: 20px; /* add some space between the navbar and the cards */
   }
-  
   .card {
     background-color: #e6ccb2;
     border: 1px solid #d4a373;

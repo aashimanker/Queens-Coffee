@@ -2,22 +2,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Arial", sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-background {
+  background-image: url("https://i.postimg.cc/W4n44dbB/p4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  
+  position: absolute; /* Add this to make it take up the full page */
+  top: 0;
+  left: 0;
 }
-  
-  .container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    /* background: url("https://i.postimg.cc/W4n44dbB/p4.jpg") no-repeat center center;
-    background-size: 100vw auto; /* Change this line */
-    /* background-position: center; */ 
-    
-  }
+
+/* Rest of the CSS code remains the same */
+.container-box {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: transparent;
+  border-radius: 10px;
+}
   
   .artwork {
     flex: 1;

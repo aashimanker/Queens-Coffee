@@ -61,7 +61,7 @@ function Sales() {
     <>
     <title>Sales Page</title>
       <main>
-        <div className="body"></div>
+        <div className="body-sales"></div>
         <div className="card-container">
           <div className="card">
             <h2>Today's Sales</h2>
