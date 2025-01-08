@@ -17,9 +17,7 @@ Queens Coffee Billing System is a MERN stack application designed to manage coff
     o	Accounts Page
     o	Navbar
     o	Sales Page
-•	Screenshots
 •	Contributing
-•	License
 
 ---
 
